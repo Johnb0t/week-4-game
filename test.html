@@ -65,7 +65,7 @@ function startGame () {
   //loop to create images on page that have data values randomly chosen from numberOptions
   for (var i = 0; i < 4; i++) {
 
-    var imageCrystal = $("<img>").addClass("crystalImage").attr("src", "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg").attr("data-crystalvalue", numberOptions[Math.floor(Math.random() * numberOptions.length)]);
+    var imageCrystal = $("<img src=" + 'assets/images/' + crystalImages[Math.floor(Math.random() * crystalImages.length)] + ">").addClass("crystalImage").attr("data-crystalvalue", numberOptions[Math.floor(Math.random() * numberOptions.length)]);
 
     $("#crystals").append(imageCrystal);
   }
@@ -79,7 +79,7 @@ function startGame () {
 
     	$("#scoreCounter").text(counter);
 
-    	console.log("New score: " + counter);
+    	//console.log("New score: " + counter);
 
     	if (counter === targetNumber) {
     		wins++;

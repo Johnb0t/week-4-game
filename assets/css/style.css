@@ -1,3 +1,61 @@
-h1 {
-	font-size: 50px;
+
+body {
+	background-image: url(../images/blue.jpg);
+}
+.header {
+	background: #bd7123;
+	padding: 10px 0px;
+	width: 250px;
+	color: white;
+	margin-bottom: 10px;
+}
+.instructions {
+	background: #ffe7d3;
+	width: 400px;
+	height: 375px;
+	color: #4dab4d;
+	font-weight: bold;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.crystalImage {
+	width: 75px;
+	height: 75px;
+	padding-right: 5px;
+}
+.targetNumber {
+	background: #4dab4d;
+	width: 200px;
+	height: 100px;
+	font-size: 28px;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-right: 0;
+	float: left;
+}
+.results {
+	background: #21e9f3;
+	margin-left: 220px;
+	width: 75px;
+	padding: 5px;
+	height: 100px;
+}
+#crystals {
+	clear: both;
+	margin-bottom: 10px;
+}
+#currentScore {
+	background: #049487;
+	margin-bottom: 10px;
+	width: 200px;
+	padding: 5px;
+	color: white;
+}
+#scoreCounter {
+	background: #049487;
+	width: 200px;
+	height: 100px;
+	padding: 5px;
+	color: white;
+	font-size: 28px;
 }

@@ -57,7 +57,7 @@ function startGame () {
       		startGame();
    		}
    	//inject win/lose html to document
-    var html = "<p>Wins: " + wins + "</p>" + 
+    var html = "<p>Wins: " + wins + "</p>" +
 			   "<p>Losses: " + losses + "</p>";
 
 	  $(".results").html(html);
